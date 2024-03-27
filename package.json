@@ -41,7 +41,7 @@
     "gqty": "3.0.0-canary-20240327112154.41b44e512f6e15ec145801fa3fdc234a6131b6e1",
     "postcss": "^8.4.38",
     "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.2.8",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.1",
     "twind": "^0.16.19",
     "typescript": "^5.4.3",
