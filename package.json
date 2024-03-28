@@ -36,7 +36,7 @@
     "@gqty/react": "3.0.0-canary-20240327112154.41b44e512f6e15ec145801fa3fdc234a6131b6e1",
     "@twind/next": "^1.0.10",
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.17",
+    "@types/react": "^18.2.73",
     "autoprefixer": "^10.4.19",
     "gqty": "3.0.0-canary-20240327112154.41b44e512f6e15ec145801fa3fdc234a6131b6e1",
     "postcss": "^8.4.38",
