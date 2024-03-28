@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^20.11.30
     version: 20.11.30
   '@types/react':
-    specifier: ^18.2.17
-    version: 18.2.17
+    specifier: ^18.2.73
+    version: 18.2.73
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -1631,7 +1631,7 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0
     dependencies:
-      '@types/react': 18.2.17
+      '@types/react': 18.2.73
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -1684,7 +1684,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.5
-      '@types/react': 18.2.17
+      '@types/react': 18.2.73
       react: 18.2.0
     dev: false
 
@@ -2201,11 +2201,10 @@ packages:
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react@18.2.17:
-    resolution: {integrity: sha512-u+e7OlgPPh+aryjOm5UJMX32OvB2E3QASOAqVMY6Ahs90djagxwv2ya0IctglNbNTexC12qCSMZG47KPfy1hAA==}
+  /@types/react@18.2.73:
+    resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
     dependencies:
       '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
       csstype: 3.1.2
 
   /@types/responselike@1.0.0:
@@ -2213,9 +2212,6 @@ packages:
     dependencies:
       '@types/node': 20.11.30
     dev: true
-
-  /@types/scheduler@0.16.3:
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
 
   /@types/unist@2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
