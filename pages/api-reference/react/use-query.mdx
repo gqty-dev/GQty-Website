@@ -84,6 +84,11 @@ use.
 | `network-only`      | Translates to the cache policy `no-cache`.    |
 | `no-cache`          | Translates to the cache policy `no-store`.    |
 
+### `initialLoadingState`
+
+Specify the default value for `isLoading`, useful for rendering logics that
+depends on the first fetch.
+
 ### `notifyOnNetworkStatusChange`
 
 Updates loading state or triggers suspense during refetch, does not affect
