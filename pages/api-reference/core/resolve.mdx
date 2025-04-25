@@ -44,11 +44,11 @@ read more about cache policy options in [Concepts](/concepts#cache-policy).
 
 ### `extensions`
 
-A query extention object, carrying extra information to your query fetcher.
+A query extension object, carrying extra information to your query fetcher.
 
 ```tsx
 await resolve(({ query }) => query.foo, {
-  extentions: {
+  extensions: {
     authToken: "Bearer ...",
   },
 });
