@@ -41,8 +41,8 @@ dependencies:
 
 devDependencies:
   '@gqty/react':
-    specifier: ^3.1.0
-    version: 3.1.0(gqty@3.4.2)(graphql@16.8.2)(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^3.1.1
+    version: 3.1.1(gqty@3.4.2)(graphql@16.8.2)(react-dom@18.3.1)(react@18.3.1)
   '@twind/next':
     specifier: ^1.0.10
     version: 1.0.10(next@14.2.30)(react@18.3.1)(twind@0.16.19)(typescript@5.8.3)
@@ -137,11 +137,11 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@gqty/react@3.1.0(gqty@3.4.2)(graphql@16.8.2)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-MFGFmAvDi+N4KX2WUSSiFMGzv5fdmrWd0naVxRRDff/+CeNjXHCmwAKi5B2aezuSXrh+rENh/+6ZlZgB3ffOIg==}
+  /@gqty/react@3.1.1(gqty@3.4.2)(graphql@16.8.2)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-B196sxr9iL6ep4+WV2Mb1WzbiN+KPnHH0EBGrWa0cBmURPuQuTNSJc5zb9nxgS9E6CkTVbukH/RQf/QNO3b5LA==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
-      gqty: ^3.3.0
+      gqty: ^3.5.0
       graphql: '*'
       graphql-sse: ^2.5.4
       graphql-ws: ^5.16.2
@@ -161,7 +161,7 @@ packages:
       p-defer: 3.0.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-ssr-prepass: 1.5.0(react@18.3.1)
+      react-ssr-prepass: 1.6.0(react@18.3.1)
       use-sync-external-store: 1.4.0(react@18.3.1)
     transitivePeerDependencies:
       - js-cookie
@@ -506,6 +506,7 @@ packages:
 
   /@react-hookz/deep-equal@1.0.4:
     resolution: {integrity: sha512-N56fTrAPUDz/R423pag+n6TXWbvlBZDtTehaGFjK0InmN+V2OFWLE/WmORhmn6Ce7dlwH5+tQN1LJFw3ngTJVg==}
+    deprecated: Package is deprecated and will be deleted soon. Use @ver0/deep-equal instead.
     dev: true
 
   /@react-hookz/web@23.1.0(react-dom@18.3.1)(react@18.3.1):
@@ -4918,10 +4919,10 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-ssr-prepass@1.5.0(react@18.3.1):
-    resolution: {integrity: sha512-yFNHrlVEReVYKsLI5lF05tZoHveA5pGzjFbFJY/3pOqqjGOmMmqx83N4hIjN2n6E1AOa+eQEUxs3CgRnPmT0RQ==}
+  /react-ssr-prepass@1.6.0(react@18.3.1):
+    resolution: {integrity: sha512-M10nxc95Sfm00fXm+tLkC1MWG5NLWEBgWoGrPSnAqEFM4BUaoy97JvVw+m3iL74ZHzj86M33rPiFi738hEFLWg==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
     dependencies:
       react: 18.3.1
     dev: true
