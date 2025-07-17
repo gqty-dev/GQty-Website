@@ -33,7 +33,7 @@
     "reshaped": "file:node_modules_offline/reshaped-react-v1.14.0.tgz"
   },
   "devDependencies": {
-    "@gqty/react": "^3.1.0",
+    "@gqty/react": "^3.1.1",
     "@twind/next": "^1.0.10",
     "@types/node": "^22.16.4",
     "@types/react": "^18.3.23",
