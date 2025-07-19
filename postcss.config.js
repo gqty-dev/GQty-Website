@@ -3,7 +3,7 @@ const config = require("reshaped/config/postcss");
 module.exports = {
   plugins: {
     ...config.plugins,
-    tailwindcss: {},
+    "@tailwindcss/postcss": {},
     autoprefixer: {},
   },
 };
