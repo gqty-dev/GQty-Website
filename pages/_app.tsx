@@ -5,8 +5,7 @@ import App from "next/app";
 import { Reshaped } from "reshaped/bundle";
 import twindConfig from "../tailwind.config.js";
 
-import "reshaped/bundle.css";
-import "../themes/gqty/theme.css";
+import "../themes/global.css";
 
 export default withTwindApp(
   twindConfig,
@@ -21,5 +20,5 @@ export default withTwindApp(
         </Reshaped>
       );
     }
-  }
+  },
 );
