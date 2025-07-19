@@ -112,6 +112,15 @@ The `onFetch` callback gives you a promise when a fetch happens.
 onFetch?: (fetchPromise: Promise<unknown>) => void;
 ```
 
+### `onError()`
+
+The `onError` callback is called when a query fails, and the error is passed to
+the callback instead of being thrown.
+
+```tsx
+onError?: (error: Error) => void;
+```
+
 ### `onSelect()`
 
 The `onSelect` callback is called when a selection is made by accessing the
