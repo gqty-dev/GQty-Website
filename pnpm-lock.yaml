@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@gqty/react':
         specifier: ^3.1.1
-        version: 3.1.1(gqty@3.5.0(graphql@16.11.0))(graphql@16.11.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.1.1(gqty@3.6.0(graphql@16.11.0))(graphql@16.11.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tailwindcss/postcss':
         specifier: ^4.1.16
         version: 4.1.16
@@ -61,8 +61,8 @@ importers:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
       gqty:
-        specifier: ^3.5.0
-        version: 3.5.0(graphql@16.11.0)
+        specifier: ^3.6.0
+        version: 3.6.0(graphql@16.11.0)
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -1650,8 +1650,8 @@ packages:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
-  gqty@3.5.0:
-    resolution: {integrity: sha512-Ep7erY2BtPK9sBIUSuIbBArZEJvjdFBnbQXYjkpf0P6RgUeCbJCCotr7z5aQiEigaaQE2B5JQw1GullpXSWNWA==}
+  gqty@3.6.0:
+    resolution: {integrity: sha512-Svy3BuGH2cGRSOvfsceuZ6YPvP6oS7FaTdeqdAqzjJa2hb1R8EZ7F0ofvowByK7siCpZELDHVDDP2m85lkiY2w==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       graphql: '*'
@@ -3495,10 +3495,10 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@gqty/react@3.1.1(gqty@3.5.0(graphql@16.11.0))(graphql@16.11.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@gqty/react@3.1.1(gqty@3.6.0(graphql@16.11.0))(graphql@16.11.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@react-hookz/web': 23.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      gqty: 3.5.0(graphql@16.11.0)
+      gqty: 3.6.0(graphql@16.11.0)
       graphql: 16.11.0
       multidict: 1.0.9
       p-debounce: 4.0.0
@@ -4964,7 +4964,7 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  gqty@3.5.0(graphql@16.11.0):
+  gqty@3.6.0(graphql@16.11.0):
     dependencies:
       debounce-microtasks: 0.1.8
       flatted: 3.3.3
