@@ -36,7 +36,7 @@
     "@gqty/react": "^3.1.1",
     "@tailwindcss/postcss": "^4.1.17",
     "@twind/next": "^1.0.10",
-    "@types/node": "^24.10.2",
+    "@types/node": "^24.10.3",
     "@types/react": "^18.3.27",
     "autoprefixer": "^10.4.22",
     "gqty": "^3.6.0",
