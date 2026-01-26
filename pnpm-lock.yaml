@@ -13,19 +13,19 @@ importers:
         version: 1.11.0
       '@vercel/analytics':
         specifier: ^1.6.1
-        version: 1.6.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
+        version: 1.6.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
       '@vercel/speed-insights':
         specifier: ^1.3.1
-        version: 1.3.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
+        version: 1.3.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
       next:
-        specifier: ^15.5.7
-        version: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^15.5.10
+        version: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       nextra:
         specifier: ^2.13.4
-        version: 2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       nextra-theme-docs:
         specifier: ^2.13.4
-        version: 2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nextra@2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nextra@2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -50,7 +50,7 @@ importers:
         version: 4.1.18
       '@twind/next':
         specifier: ^1.0.10
-        version: 1.0.10(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(twind@0.16.19(typescript@5.9.3))(typescript@5.9.3)
+        version: 1.0.10(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(twind@0.16.19(typescript@5.9.3))(typescript@5.9.3)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -419,8 +419,8 @@ packages:
     resolution: {integrity: sha512-jMxvwzkKzd3cXo2EB9GM2ic0eYo2rP/BS6gJt6HnWbsDO1O8GSD4k7o2Cpr2YERtMpGF/MGcDfsfj2EbQPtrXw==}
     engines: {node: '>= 10'}
 
-  '@next/env@15.5.7':
-    resolution: {integrity: sha512-4h6Y2NyEkIEN7Z8YxkA27pq6zTkS09bUSYC0xjd0NpwFxjnIKeZEeH591o5WECSmjpUhLn3H2QLJcDye3Uzcvg==}
+  '@next/env@15.5.10':
+    resolution: {integrity: sha512-plg+9A/KoZcTS26fe15LHg+QxReTazrIOoKKUC3Uz4leGGeNPgLHdevVraAAOX0snnUs3WkRx3eUQpj9mreG6A==}
 
   '@next/swc-darwin-arm64@15.5.7':
     resolution: {integrity: sha512-IZwtxCEpI91HVU/rAUOOobWSZv4P2DeTtNaCdHqLcTJU4wdNXgAySvKa/qJCgR5m6KI8UsKDXtO2B31jcaw1Yw==}
@@ -2493,10 +2493,9 @@ packages:
       react: '*'
       react-dom: '*'
 
-  next@15.5.7:
-    resolution: {integrity: sha512-+t2/0jIJ48kUpGKkdlhgkv+zPTEOoXyr60qXe68eB/pl3CMJaLeIGjzp5D6Oqt25hCBiBTt8wEeeAzfJvUKnPQ==}
+  next@15.5.10:
+    resolution: {integrity: sha512-r0X65PNwyDDyOrWNKpQoZvOatw7BcsTPRKdwEqtc9cj3wv7mbBIk9tKed4klRaFXJdX0rugpuMTHslDrAU1bBg==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
-    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -3977,7 +3976,7 @@ snapshots:
       '@napi-rs/simple-git-win32-arm64-msvc': 0.1.19
       '@napi-rs/simple-git-win32-x64-msvc': 0.1.19
 
-  '@next/env@15.5.7': {}
+  '@next/env@15.5.10': {}
 
   '@next/swc-darwin-arm64@15.5.7':
     optional: true
@@ -4219,9 +4218,9 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@twind/next@1.0.10(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(twind@0.16.19(typescript@5.9.3))(typescript@5.9.3)':
+  '@twind/next@1.0.10(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(twind@0.16.19(typescript@5.9.3))(typescript@5.9.3)':
     dependencies:
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       twind: 0.16.19(typescript@5.9.3)
     optionalDependencies:
@@ -4294,9 +4293,9 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vercel/analytics@1.6.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))':
+  '@vercel/analytics@1.6.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))':
     optionalDependencies:
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       vue: 3.5.25(typescript@5.9.3)
       vue-router: 4.6.3(vue@3.5.25(typescript@5.9.3))
@@ -4453,9 +4452,9 @@ snapshots:
 
   '@vercel/ruby@2.2.1': {}
 
-  '@vercel/speed-insights@1.3.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))':
+  '@vercel/speed-insights@1.3.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))':
     optionalDependencies:
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       vue: 3.5.25(typescript@5.9.3)
       vue-router: 4.6.3(vue@3.5.25(typescript@5.9.3))
@@ -4659,7 +4658,7 @@ snapshots:
   browserslist@4.28.0:
     dependencies:
       baseline-browser-mapping: 2.8.25
-      caniuse-lite: 1.0.30001754
+      caniuse-lite: 1.0.30001760
       electron-to-chromium: 1.5.250
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
@@ -4679,7 +4678,7 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.28.0
-      caniuse-lite: 1.0.30001754
+      caniuse-lite: 1.0.30001760
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
@@ -6305,23 +6304,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  next-seo@6.8.0(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-seo@6.8.0(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  next-themes@0.2.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-themes@0.2.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@next/env': 15.5.7
+      '@next/env': 15.5.10
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001754
+      caniuse-lite: 1.0.30001760
       postcss: 8.4.31
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6340,7 +6339,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextra-theme-docs@2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nextra@2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  nextra-theme-docs@2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nextra@2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@headlessui/react': 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@popperjs/core': 2.11.8
@@ -6351,16 +6350,16 @@ snapshots:
       git-url-parse: 13.1.1
       intersection-observer: 0.12.2
       match-sorter: 6.3.4
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      next-seo: 6.8.0(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      next-themes: 0.2.1(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      nextra: 2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next-seo: 6.8.0(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next-themes: 0.2.1(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      nextra: 2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       scroll-into-view-if-needed: 3.1.0
       zod: 3.25.76
 
-  nextra@2.13.4(next@15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  nextra@2.13.4(next@15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@headlessui/react': 1.7.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mdx-js/mdx': 2.3.0
@@ -6374,7 +6373,7 @@ snapshots:
       gray-matter: 4.0.3
       katex: 0.16.22
       lodash.get: 4.4.2
-      next: 15.5.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-mdx-remote: 4.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       p-limit: 3.1.0
       react: 18.3.1
