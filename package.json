@@ -38,7 +38,7 @@
     "@twind/next": "^1.0.10",
     "@types/node": "^24.13.2",
     "@types/react": "^18.3.31",
-    "autoprefixer": "^10.5.0",
+    "autoprefixer": "^10.5.1",
     "gqty": "^3.6.0",
     "postcss": "^8.5.15",
     "prettier": "^3.8.4",
