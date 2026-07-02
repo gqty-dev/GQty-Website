@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@stackblitz/sdk':
-        specifier: ^1.11.0
-        version: 1.11.0
+        specifier: ^1.11.1
+        version: 1.11.1
       '@vercel/analytics':
         specifier: ^1.6.1
         version: 1.6.1(next@15.5.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
@@ -625,8 +625,8 @@ packages:
   '@sinclair/typebox@0.25.24':
     resolution: {integrity: sha512-XJfwUVUKDHF5ugKwIcxEgc9k8b7HbznCp6eUfWgu710hMPNIO4aw4/zB5RogDQz8nd6gyCDpU9O/m6qYEWY6yQ==}
 
-  '@stackblitz/sdk@1.11.0':
-    resolution: {integrity: sha512-DFQGANNkEZRzFk1/rDP6TcFdM82ycHE+zfl9C/M/jXlH68jiqHWHFMQURLELoD8koxvu/eW5uhg94NSAZlYrUQ==}
+  '@stackblitz/sdk@1.11.1':
+    resolution: {integrity: sha512-5wl1j3IhtmE7POTl2W9VGQdbQyBQrRsF3jcYBK+0V353AuO8H2GFZkiFNyTRxL+TDY3HIFCHc3G983Osmg76Lg==}
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
@@ -4088,7 +4088,7 @@ snapshots:
 
   '@sinclair/typebox@0.25.24': {}
 
-  '@stackblitz/sdk@1.11.0': {}
+  '@stackblitz/sdk@1.11.1': {}
 
   '@swc/helpers@0.5.15':
     dependencies:
